@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Themes on rin0z</title>
+        <title>Themes on rin0z.</title>
         <link>https://rinnz1.github.io/categories/themes/</link>
-        <description>Recent content in Themes on rin0z</description>
+        <description>Recent content in Themes on rin0z.</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>rin0z</copyright>
+        <copyright>rin0z.</copyright>
         <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rinnz1.github.io/categories/themes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Markdown Syntax Guide</title>
         <link>https://rinnz1.github.io/p/markdown-syntax-guide/</link>
