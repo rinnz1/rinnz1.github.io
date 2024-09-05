@@ -6,13 +6,22 @@
         <description>Recent content in Categories on rin0z.</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>rin0z.</copyright><atom:link href="https://rinnz1.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Test</title>
-        <link>https://rinnz1.github.io/categories/test/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <copyright>rin0z.</copyright>
+        <lastBuildDate>Fri, 06 Sep 2024 02:48:09 +0800</lastBuildDate><atom:link href="https://rinnz1.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Galgame.</title>
+        <link>https://rinnz1.github.io/categories/galgame/</link>
+        <pubDate>Fri, 06 Sep 2024 02:48:09 +0800</pubDate>
         
-        <guid>https://rinnz1.github.io/categories/test/</guid>
-        <description>&lt;img src="https://rinnz1.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://rinnz1.github.io/categories/galgame/</guid>
+        <description>&lt;img src="https://rinnz1.github.io/categories/galgame/sd_kuk.bmp" alt="Featured image of post Galgame." /&gt;</description>
+        </item>
+        <item>
+        <title>rin0z.</title>
+        <link>https://rinnz1.github.io/categories/rin0z/</link>
+        <pubDate>Wed, 04 Sep 2024 23:38:48 +0800</pubDate>
+        
+        <guid>https://rinnz1.github.io/categories/rin0z/</guid>
+        <description>&lt;img src="https://rinnz1.github.io/categories/rin0z/sd_tou.bmp" alt="Featured image of post rin0z." /&gt;</description>
         </item>
         
     </channel>
