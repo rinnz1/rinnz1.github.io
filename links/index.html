@@ -70,20 +70,27 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">rin0z.</a></h1>
-            <h2 class="site-description">welcome.</h2>
+            <h2 class="site-description"></h2>
         </div>
     </header><ol class="menu-social">
             
                 <li>
                     <a 
-                        href='https://x.com'
+                        href=''
                         target="_blank"
-                        title="X"
+                        
                         rel="me"
                     >
                         
                         
-                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-letter-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 4l10 16" /><path d="M17 4l-10 16" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
                         
                     </a>
                 </li>
@@ -302,8 +309,6 @@
     </section>
     
     <section class="powerby">
-        
-            abo m. <br/>
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
@@ -405,6 +410,50 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+
+
+    
+    <script src=https://rinnz1.github.io/js/topbar.min.js></script>
+
+
+<script>
+    var pjax = new Pjax({
+  selectors: [".main-container"]
+})
+
+    pjax._handleResponse = pjax.handleResponse;
+    pjax.handleResponse = function(responseText, request, href, options) {
+        if (request.responseText.match("<html")) {
+            
+            let newDom = new DOMParser().parseFromString(responseText, 'text/html');
+            
+            let bodyClass = newDom.body.className;
+            document.body.setAttribute("class", bodyClass)
+            
+            pjax._handleResponse(responseText, request, href, options);
+        } else {
+            
+        }
+    }
+
+
+
+
+
+
+
+
+    document.addEventListener('pjax:send', () => {
+        
+        topbar.show();
+    })
+    document.addEventListener('pjax:complete', () => {
+        window.Stack.init();
+        
+        topbar.hide();
+    })
 </script>
 
     </body>
