@@ -412,12 +412,12 @@
     }
 
 
-
-
-
-
-
-
+    topbar.config({
+        barColors: {
+            '0': 'rgba(221,  160, 221, 1)', 
+            '1.0': 'rgba(123, 104, 238,  1)' 
+        }
+    })
     document.addEventListener('pjax:send', () => {
         
         topbar.show();
