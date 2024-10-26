@@ -2,8 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rinnz1.github.io/p/about-rin0z./</loc>
+    <lastmod>2024-09-04T23:38:48+08:00</lastmod>
+  </url><url>
     <loc>https://rinnz1.github.io/</loc>
-    <lastmod>2024-10-09T07:09:09+08:00</lastmod>
+    <lastmod>2024-10-15T11:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://rinnz1.github.io/p/8thblg/</loc>
+    <lastmod>2024-10-15T11:48:37+08:00</lastmod>
+  </url><url>
+    <loc>https://rinnz1.github.io/post/</loc>
+    <lastmod>2024-10-15T11:48:37+08:00</lastmod>
   </url><url>
     <loc>https://rinnz1.github.io/categories/</loc>
     <lastmod>2024-10-09T07:09:09+08:00</lastmod>
@@ -12,9 +21,6 @@
     <lastmod>2024-10-09T07:09:09+08:00</lastmod>
   </url><url>
     <loc>https://rinnz1.github.io/categories/galgame/</loc>
-    <lastmod>2024-10-09T07:09:09+08:00</lastmod>
-  </url><url>
-    <loc>https://rinnz1.github.io/post/</loc>
     <lastmod>2024-10-09T07:09:09+08:00</lastmod>
   </url><url>
     <loc>https://rinnz1.github.io/tags/</loc>
@@ -55,9 +61,6 @@
   </url><url>
     <loc>https://rinnz1.github.io/about/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rinnz1.github.io/p/about-rin0z./</loc>
-    <lastmod>2024-09-04T23:38:48+08:00</lastmod>
   </url><url>
     <loc>https://rinnz1.github.io/page/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
